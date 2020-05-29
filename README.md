@@ -1,2 +1,7 @@
 # todo
 A Terminal-based command set for those who prefer a clutter-free list of TODOs. 
+
+## Modifications
+The path names in `todo.py` and `custom_commands.sh` are relevant to my computer. You'll need to update these path names to reflect the correct locations of `todo.py` and `todo.txt` on your computer. 
+
+Terminal doesn't recognize the shell function in `custom_commands.sh` on its own. You've gotta create a zshrc file and source `custom_commands.sh`. The path name for `custom_commands.sh` in `.zshrc` is also specific to my computer, so don't forget to update that. 
