@@ -14,4 +14,4 @@ You can delete an event from the TODO list with `todo delev "{Event}"`
 
 You can clear the TODO list with `todo clear`
 
-You can display the TODO list with `todo listev'
+You can display the TODO list with `todo listev`
