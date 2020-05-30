@@ -12,7 +12,7 @@ You can add an event to the TODO list in chronological order with `todo newev "{
 
 You can add an item to the TODO list with `todo newit "{Item}"`
 
-You can delete an event from the TODO list with `todo delev "{Event}"`
+You can delete an event/item from the TODO list with `todo del "{Name}"`
 
 You can clear the TODO list with `todo clear`
 
