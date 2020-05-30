@@ -22,7 +22,7 @@ function todo() {
 		if [ "$arg2" = "" ]; then
 			python3 /Users/andsa/.scripts/todo/.todo.py "$arg1"
 		else
-			echo "Command should be of the form: todo listev"
+			echo "Command should be of the form: todo show"
 		fi
 	elif [ "$arg1" = "clear" ]; then
 		if [ "$arg2" =  "" ]; then
