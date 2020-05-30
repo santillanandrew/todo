@@ -10,8 +10,10 @@ Terminal doesn't recognize the shell function in `custom_commands.sh` on its own
 
 You can add an event to the TODO list in chronological order with `todo newev "{Event}" on "{Month} {DD}, {YYYY}"`
 
+You can add an item to the TODO list with `todo newit "{Item}"`
+
 You can delete an event from the TODO list with `todo delev "{Event}"`
 
 You can clear the TODO list with `todo clear`
 
-You can display the TODO list with `todo listev`
+You can display the TODO list with `todo show`
