@@ -1,19 +1,15 @@
-# todo
-A Terminal-based command set for those who prefer a clutter-free list of TODOs. 
+## Instructions
 
-## Modifications
-The path names in `todo.py` and `custom_commands.sh` are relevant to my computer. You'll need to update these path names to reflect the correct locations of `todo.py` and `todo.txt` on your computer. 
+Type `todo newev "Homework 0" on "September, 24, 2020"` to add the event "Homework 0" on September 24, 2020.
 
-Terminal doesn't recognize the shell function in `custom_commands.sh` on its own. You've gotta create a zshrc file and source `custom_commands.sh`. The path name for `custom_commands.sh` in `.zshrc` is also specific to my computer, so don't forget to update that. 
+Type `todo newit "Message Alyssa"` adds the item "Message Alyssa"
 
-## Usage
+Type `todo del "Call Mom"` to remove "Call Mom" from the to-do list, if it exists
 
-You can add an event to the TODO list in chronological order with `todo newev "{Event}" on "{Month} {DD}, {YYYY}"`
+Type `todo clear` to wipe the to-do list
 
-You can add an item to the TODO list with `todo newit "{Item}"`
+Type `todo show` to display the to-do list
 
-You can delete an event/item from the TODO list with `todo del "{Name}"`
+## Comments
 
-You can clear the TODO list with `todo clear`
-
-You can display the TODO list with `todo show`
+All of the path names in `todo.py`, `custom_commands.sh`, and `.zshrc` are relevant to my computer. Code needs to be modified to reflect the locations on your device.
